@@ -1,0 +1,28 @@
+{
+  "name": "knee_example_web",
+  "version": "1.0.0",
+  "description": "Example web application with knee framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdakalov/knee_example_web.git"
+  },
+  "keywords": [
+    "knee"
+  ],
+  "author": "Viktor Dakalov <atlantidu@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/vdakalov/knee_example_web/issues"
+  },
+  "homepage": "https://github.com/vdakalov/knee_example_web#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.1",
+    "knee": "0.0.3",
+    "mongodb": "^2.2.31"
+  }
+}
