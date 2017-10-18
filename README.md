@@ -34,9 +34,8 @@ NODE_PATH=/path/to/project node node_modules/.bin/knee config/default
 Точкой входа в приложение является сам пакет `knee`, которому в качестве параметра передаётся путь к файлу-конфигурации
 приложения.
 
-Вот эта часть строки запуска
 ```
-./node_modules/.bin/knee config/default
+NODE_PATH=$(pwd) node ./node_modules/.bin/knee config/default 
 ```
 
 Структура модулей описанная в файле `config/default.js`
